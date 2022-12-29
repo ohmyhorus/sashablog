@@ -1,4 +1,8 @@
 blogcss.css
-h1 {color: white}
-h2 {color: white}
-h3 {color: white}
+body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+h1 h2 h3 { 
+        color: white
+} 
