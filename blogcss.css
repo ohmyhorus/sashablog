@@ -1,8 +1,52 @@
 blogcss.css
+
+.linear-gradient {
+
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,29,70,1) 63%, rgba(26,46,153,1) 100%);
+margin: 0;
+        padding: 0;
+}
 body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Rubik', sans-serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,29,70,1) 63%, rgba(26,46,153,1) 100%);
+        padding: 0;
       }
 
-h1 h2 h3 { 
-        color: white
+h1 {
+    font-family: 'Andika', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h2 h3 {         
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+    font-display: white;
+    margin: 0%;
+    padding: 0%;
 } 
+div {
+    margin: 0%;
+    padding: 0%;
+}
+p {
+    font-family: 'Andika', sans-serif;
+    color: white;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+}
+button {
+    background-color: rgb(252, 252, 252);
+}
+
+button:hover {
+    background-color: rgb(235, 59, 5);
+}
